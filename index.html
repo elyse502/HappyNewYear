@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <title>Happy New Year</title>
+    </head>
+    <body>
+            <div class="container" id="prompt">
+                <form>
+                    <div class="name">
+                        <input type="text" id="myName" name="myName" placeholder="Enter your name" required>
+                    </div>   
+                </form>
+                <button class="go" id="go">GO!</button>
+            </div>
+
+            <div class="container hidden" id="result">
+                <div>
+                    <div id="confetti-container"></div>
+                    <p>Happy new year</p>
+                    <p id="nameToDisplay"></p>
+                    <p>Wish you all the best!</p>
+                </div>
+            </div>
+
+            <footer class="copyright">
+                <img src="./image/cp.png" class="image_copyright">
+                <h5>
+                    Elysée NIYIBIZI, 2024
+                </h5>
+            </footer>
+    </body>
+</html>

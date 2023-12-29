@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./image/ChristmasTree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#myName {
+    height: 20px;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    box-shadow: 1px 1px 5px  #00000036;
+    border-radius: 5px;
+    margin-right: 10px; 
+    background-color: white;
+}
+
+
+.go {
+    height: 40px;
+    width: 50px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px  #00000036;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    cursor: pointer;
+    color: black;
+    background-color: #e4ad53;
+}
+
+p {
+    color: white;
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+.copyright{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+.image_copyright{
+    width: auto;
+    height: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    animation: fall 2s ease-out infinite;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translate(0, 0) rotate(0);
+    }
+    100% {
+      transform: translate(0, 600px) rotate(720deg);
+    }
+  }
