@@ -45,6 +45,13 @@ body {
     background-color: #e4ad53;
 }
 
+a {
+    color: yellow;
+    text-align:center;
+    display:block;
+    font-size: 40px;
+}
+
 p {
     color: white;
     font-family: Arial;
